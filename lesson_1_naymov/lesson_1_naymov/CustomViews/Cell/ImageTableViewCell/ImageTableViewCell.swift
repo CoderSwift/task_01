@@ -4,13 +4,13 @@ import UIKit
 class ImageTableViewCell: SimpleTableViewCell {
     
     
-    @IBOutlet weak var boxImageView: UIView!{
+    @IBOutlet weak var boxView: UIView!{
         didSet{
-            boxImageView.layer.cornerRadius = 10
-            boxImageView.layer.shadowColor = UIColor.darkGray.cgColor
-            boxImageView.layer.shadowOffset = CGSize(width: 5, height: 5)
-            boxImageView.layer.shadowRadius = 5
-            boxImageView.layer.shadowOpacity = 0.2
+            boxView.layer.cornerRadius = 10
+            boxView.layer.shadowColor = UIColor.darkGray.cgColor
+            boxView.layer.shadowOffset = CGSize(width: 5, height: 5)
+            boxView.layer.shadowRadius = 5
+            boxView.layer.shadowOpacity = 0.2
         }
     }
     @IBOutlet weak var imageMessageImageView: UIImageView! {
@@ -27,6 +27,7 @@ class ImageTableViewCell: SimpleTableViewCell {
     
     override func setData(dataModel: Post, indexCell: Int) {
         super.setData(dataModel: dataModel, indexCell: indexCell)
+        imageMessageImageView.image = dataModel.imagePost
     }
 
 

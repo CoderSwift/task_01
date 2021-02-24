@@ -136,13 +136,13 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
-                <outlet property="backgroundViewCell" destination="2re-5z-AnO" id="hJi-Wr-fY3"/>
+                <outlet property="backgroundViewCellView" destination="2re-5z-AnO" id="9N4-XS-L8H"/>
                 <outlet property="countLikeLabel" destination="Utm-vu-P6b" id="7ar-Oe-Vbu"/>
                 <outlet property="dateMessageLabel" destination="CPM-QZ-eit" id="Ksb-bL-w0C"/>
                 <outlet property="messageLabel" destination="NAE-0p-TUm" id="Edq-FJ-MQ7"/>
-                <outlet property="nameUser" destination="P9T-iL-b64" id="vfx-xf-fs8"/>
-                <outlet property="userImage" destination="haf-Tz-YJH" id="QIH-gZ-S8t"/>
-                <outlet property="userImageBox" destination="5Ua-U6-dMv" id="9FL-G5-bjZ"/>
+                <outlet property="nameUserLabel" destination="P9T-iL-b64" id="vfx-xf-fs8"/>
+                <outlet property="userImageView" destination="haf-Tz-YJH" id="QIH-gZ-S8t"/>
+                <outlet property="userView" destination="5Ua-U6-dMv" id="9FL-G5-bjZ"/>
             </connections>
             <point key="canvasLocation" x="124" y="159"/>
         </tableViewCell>

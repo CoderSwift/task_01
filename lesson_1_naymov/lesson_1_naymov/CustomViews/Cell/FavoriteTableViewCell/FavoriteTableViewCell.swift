@@ -2,6 +2,7 @@ import UIKit
 
 class FavoriteTableViewCell: SimpleTableViewCell {
     
+    
     @IBOutlet weak var boxFavoriteView: UIView! {
         didSet{
             boxFavoriteView.layer.cornerRadius = boxFavoriteView.frame.width/2
@@ -18,7 +19,7 @@ class FavoriteTableViewCell: SimpleTableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
+        
     }
     
 }

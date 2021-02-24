@@ -157,14 +157,14 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
-                <outlet property="backgroundViewCell" destination="XVh-d7-Zuj" id="kzN-HG-WCW"/>
+                <outlet property="backgroundViewCellView" destination="XVh-d7-Zuj" id="iwh-4W-CKm"/>
                 <outlet property="boxFavoriteView" destination="Yby-b0-X8y" id="vxV-5f-t7y"/>
                 <outlet property="countLikeLabel" destination="amP-5S-h69" id="tAa-Te-IJR"/>
                 <outlet property="dateMessageLabel" destination="waV-DD-Z2d" id="deE-9C-Q2h"/>
                 <outlet property="messageLabel" destination="NLV-vx-ame" id="isq-Ax-Jfz"/>
-                <outlet property="nameUser" destination="bwf-Id-0uV" id="Il9-hB-MCi"/>
-                <outlet property="userImage" destination="94C-2Y-wqp" id="xEi-aN-C7T"/>
-                <outlet property="userImageBox" destination="Vzq-Vg-moS" id="aY1-Ev-Jhh"/>
+                <outlet property="nameUserLabel" destination="bwf-Id-0uV" id="Rvp-34-Vrn"/>
+                <outlet property="userImageView" destination="94C-2Y-wqp" id="s6I-mV-wb8"/>
+                <outlet property="userView" destination="Vzq-Vg-moS" id="f7u-4N-2Oj"/>
             </connections>
             <point key="canvasLocation" x="240.57971014492756" y="141.96428571428569"/>
         </tableViewCell>

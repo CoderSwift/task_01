@@ -155,15 +155,15 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
-                <outlet property="backgroundViewCell" destination="pkL-5B-Xd1" id="jJk-Ci-had"/>
-                <outlet property="boxImageView" destination="Oo3-pD-4f8" id="hLY-nb-Dt6"/>
+                <outlet property="backgroundViewCellView" destination="pkL-5B-Xd1" id="tQF-PA-RIV"/>
+                <outlet property="boxView" destination="Oo3-pD-4f8" id="hLY-nb-Dt6"/>
                 <outlet property="countLikeLabel" destination="7TZ-kQ-C5O" id="Sk3-s6-4fR"/>
                 <outlet property="dateMessageLabel" destination="TJR-je-MGL" id="PBP-9K-o7g"/>
                 <outlet property="imageMessageImageView" destination="5sD-AT-fQK" id="Gbj-wt-P0i"/>
                 <outlet property="messageLabel" destination="se5-wj-err" id="ask-rd-Z4W"/>
-                <outlet property="nameUser" destination="mNF-s8-XZR" id="32L-qy-4NA"/>
-                <outlet property="userImage" destination="9bs-di-D5o" id="rZo-Ra-cnh"/>
-                <outlet property="userImageBox" destination="uwE-Qe-jkA" id="Pa4-4t-44C"/>
+                <outlet property="nameUserLabel" destination="mNF-s8-XZR" id="cZ0-72-sjO"/>
+                <outlet property="userImageView" destination="9bs-di-D5o" id="9Nf-Bd-G4h"/>
+                <outlet property="userView" destination="uwE-Qe-jkA" id="S4e-U2-SyW"/>
             </connections>
             <point key="canvasLocation" x="241.30434782608697" y="296.31696428571428"/>
         </tableViewCell>

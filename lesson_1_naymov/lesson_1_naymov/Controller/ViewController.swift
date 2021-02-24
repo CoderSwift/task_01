@@ -52,7 +52,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             cell.setData(dataModel: posts[indexPath.row], indexCell: indexPath.row)
             cell.delagate = self
             return cell
-        } else if posts[indexPath.row].imagePost == nil{
+        } else if posts[indexPath.row].imagePost != nil{
             let cell: ImageTableViewCell = tableView.dequeueReusableCell(forIndexPath: indexPath as NSIndexPath)
             cell.setData(dataModel: posts[indexPath.row], indexCell: indexPath.row)
             cell.delagate = self

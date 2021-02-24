@@ -2,33 +2,33 @@ import UIKit
 
 class SimpleTableViewCell: UITableViewCell {
     
-    @IBOutlet public weak var backgroundViewCell: UIView!{
+    @IBOutlet public weak var backgroundViewCellView: UIView!{
         didSet{
-            backgroundViewCell.layer.cornerRadius = 15
-            backgroundViewCell.clipsToBounds = true
-            backgroundViewCell.layer.masksToBounds = false
-            backgroundViewCell.layer.shadowRadius = 5
-            backgroundViewCell.layer.shadowOpacity = 0.1
-            backgroundViewCell.layer.shadowOffset = CGSize(width: 0, height: 0)
-            backgroundViewCell.layer.shadowColor = UIColor.gray.cgColor
+            backgroundViewCellView.layer.cornerRadius = 15
+            backgroundViewCellView.clipsToBounds = true
+            backgroundViewCellView.layer.masksToBounds = false
+            backgroundViewCellView.layer.shadowRadius = 5
+            backgroundViewCellView.layer.shadowOpacity = 0.1
+            backgroundViewCellView.layer.shadowOffset = CGSize(width: 0, height: 0)
+            backgroundViewCellView.layer.shadowColor = UIColor.gray.cgColor
         }
     }
-    @IBOutlet weak var userImageBox: UIView!{
+    @IBOutlet weak var userView: UIView!{
         didSet{
-            userImageBox.layer.cornerRadius = userImage.frame.width/2
-            userImageBox.layer.shadowColor = UIColor.darkGray.cgColor
-            userImageBox.layer.shadowOffset = CGSize(width: 10, height: 10)
-            userImageBox.layer.shadowRadius = 8
-            userImageBox.layer.shadowOpacity = 0.2
+            userView.layer.cornerRadius = userImageView.frame.width/2
+            userView.layer.shadowColor = UIColor.darkGray.cgColor
+            userView.layer.shadowOffset = CGSize(width: 10, height: 10)
+            userView.layer.shadowRadius = 8
+            userView.layer.shadowOpacity = 0.2
         }
     }
-    @IBOutlet weak var userImage: UIImageView! {
+    @IBOutlet weak var userImageView: UIImageView! {
         didSet{
-            userImage.layer.cornerRadius = userImage.frame.width/2
-            userImage.clipsToBounds = true
+            userImageView.layer.cornerRadius = userImageView.frame.width/2
+            userImageView.clipsToBounds = true
         }
     }
-    @IBOutlet weak var nameUser: UILabel!
+    @IBOutlet weak var nameUserLabel: UILabel!
     @IBOutlet weak var dateMessageLabel: UILabel!
     @IBOutlet weak var countLikeLabel: UILabel!
     @IBOutlet weak var messageLabel: UILabel!
@@ -56,8 +56,8 @@ class SimpleTableViewCell: UITableViewCell {
         guard let imageUsers = dataModel.imageUser else {return}
         guard let datePost = dataModel.date else {return}
         guard let descriptionPost = dataModel.description else {return}
-        nameUser.text = nameUsers
-        userImage.image = imageUsers
+        nameUserLabel.text = nameUsers
+        userImageView.image = imageUsers
         dateMessageLabel.text = datePost
         countLikeLabel.text = String(dataModel.likeCount)
         messageLabel.text = descriptionPost
