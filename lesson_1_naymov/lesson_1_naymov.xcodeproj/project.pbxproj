@@ -18,11 +18,12 @@
 		DC01808225E3E43C00A2C836 /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC01808025E3E43C00A2C836 /* ImageTableViewCell.xib */; };
 		DC01808925E3E47400A2C836 /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC01808725E3E47400A2C836 /* FavoriteTableViewCell.swift */; };
 		DC01808A25E3E47400A2C836 /* FavoriteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC01808825E3E47400A2C836 /* FavoriteTableViewCell.xib */; };
-		DC01809225E3E75600A2C836 /* ReusableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC01809125E3E75600A2C836 /* ReusableViewProtocol.swift */; };
+		DC0E4EF225E8541D0000F17B /* ShadowViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E4EF125E8541D0000F17B /* ShadowViewExtension.swift */; };
+		DC0E4EF725E9438F0000F17B /* indexPathTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E4EF625E9438F0000F17B /* indexPathTableViewCell.swift */; };
+		DC0E4EFC25E94DEB0000F17B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E4EFB25E94DEB0000F17B /* Constants.swift */; };
 		DC0FA12125E416A800B766DF /* SimpleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0FA11F25E416A800B766DF /* SimpleTableViewCell.swift */; };
 		DC0FA12225E416A800B766DF /* SimpleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC0FA12025E416A800B766DF /* SimpleTableViewCell.xib */; };
-		DC0FA12925E42D6B00B766DF /* NibViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0FA12825E42D6B00B766DF /* NibViewProtocol.swift */; };
-		DC0FA12D25E5471500B766DF /* LikeButtonTapProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0FA12C25E5471500B766DF /* LikeButtonTapProtocol.swift */; };
+		DC0FA12D25E5471500B766DF /* FavoriteProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0FA12C25E5471500B766DF /* FavoriteProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,11 +40,12 @@
 		DC01808025E3E43C00A2C836 /* ImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
 		DC01808725E3E47400A2C836 /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = "<group>"; };
 		DC01808825E3E47400A2C836 /* FavoriteTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteTableViewCell.xib; sourceTree = "<group>"; };
-		DC01809125E3E75600A2C836 /* ReusableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViewProtocol.swift; sourceTree = "<group>"; };
+		DC0E4EF125E8541D0000F17B /* ShadowViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowViewExtension.swift; sourceTree = "<group>"; };
+		DC0E4EF625E9438F0000F17B /* indexPathTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = indexPathTableViewCell.swift; sourceTree = "<group>"; };
+		DC0E4EFB25E94DEB0000F17B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DC0FA11F25E416A800B766DF /* SimpleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewCell.swift; sourceTree = "<group>"; };
 		DC0FA12025E416A800B766DF /* SimpleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleTableViewCell.xib; sourceTree = "<group>"; };
-		DC0FA12825E42D6B00B766DF /* NibViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibViewProtocol.swift; sourceTree = "<group>"; };
-		DC0FA12C25E5471500B766DF /* LikeButtonTapProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButtonTapProtocol.swift; sourceTree = "<group>"; };
+		DC0FA12C25E5471500B766DF /* FavoriteProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,9 +127,10 @@
 			isa = PBXGroup;
 			children = (
 				DC01807225E3DFAB00A2C836 /* UITableViewExtension.swift */,
-				DC01809125E3E75600A2C836 /* ReusableViewProtocol.swift */,
-				DC0FA12825E42D6B00B766DF /* NibViewProtocol.swift */,
-				DC0FA12C25E5471500B766DF /* LikeButtonTapProtocol.swift */,
+				DC0FA12C25E5471500B766DF /* FavoriteProtocol.swift */,
+				DC0E4EF125E8541D0000F17B /* ShadowViewExtension.swift */,
+				DC0E4EF625E9438F0000F17B /* indexPathTableViewCell.swift */,
+				DC0E4EFB25E94DEB0000F17B /* Constants.swift */,
 			);
 			path = "Extension+Protocol";
 			sourceTree = "<group>";
@@ -242,16 +245,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC0FA12D25E5471500B766DF /* LikeButtonTapProtocol.swift in Sources */,
+				DC0FA12D25E5471500B766DF /* FavoriteProtocol.swift in Sources */,
+				DC0E4EFC25E94DEB0000F17B /* Constants.swift in Sources */,
 				DC01806725E3DDAC00A2C836 /* Post.swift in Sources */,
-				DC0FA12925E42D6B00B766DF /* NibViewProtocol.swift in Sources */,
 				DC0FA12125E416A800B766DF /* SimpleTableViewCell.swift in Sources */,
 				DC01805025E3DC8400A2C836 /* ViewController.swift in Sources */,
+				DC0E4EF225E8541D0000F17B /* ShadowViewExtension.swift in Sources */,
 				DC01808125E3E43C00A2C836 /* ImageTableViewCell.swift in Sources */,
 				DC01804C25E3DC8400A2C836 /* AppDelegate.swift in Sources */,
-				DC01809225E3E75600A2C836 /* ReusableViewProtocol.swift in Sources */,
 				DC01808925E3E47400A2C836 /* FavoriteTableViewCell.swift in Sources */,
 				DC01807325E3DFAB00A2C836 /* UITableViewExtension.swift in Sources */,
+				DC0E4EF725E9438F0000F17B /* indexPathTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

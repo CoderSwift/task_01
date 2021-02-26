@@ -9,5 +9,5 @@ struct Post {
 
     var likeCount: Int
     
-    var isFavorite: Bool?
+    var isFavorite: Bool
 }
